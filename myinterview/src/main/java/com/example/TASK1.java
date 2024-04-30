@@ -13,6 +13,11 @@ import java.util.Scanner;
  * racecar.
  */
 public class TASK1 {
-     
+
+    public Boolean isPalindrome(String phrase) {
+        StringBuilder sb = new StringBuilder(phrase);
+        String palindrome =  sb.reverse().toString();
+        return phrase.equals(palindrome);
+    }
  
 }
